@@ -48,7 +48,7 @@ class Board extends React.Component {
       }
       return (
         <div>
-          <h3> {status}</h3>
+          <h3 className= 'status'> {status}</h3>
           <div className="board-row">
             {this.renderSquare(0)}
             {this.renderSquare(1)}

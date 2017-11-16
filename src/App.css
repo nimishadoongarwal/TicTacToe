@@ -28,9 +28,6 @@ body {
   margin: 20px;
 }
 
-ol, ul {
-  padding-left: 30px;
-}
 
 .board-row:after {
   clear: both;
@@ -58,20 +55,14 @@ ol, ul {
 .square:focus {
   outline: none;
 }
-
-.kbd-navigation .square:focus {
-  background: #ddd;
+.square:hover {
+  background: lightgray;
 }
 
 .game {
   display: flex;
   flex-direction: row;
 }
-
-.game-info {
-  margin-left: 20px;
-}
-
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
